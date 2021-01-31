@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="slick/slick-theme.css" />
   <link rel="stylesheet" href="css/magnific-popup.css">
   <link rel="stylesheet" href="css/templatemo-dream-pulse.css" />
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  
 </head>
 
 <body>
@@ -413,20 +415,25 @@
               </div>
             </div>
           </section>
-          <section class="tm-section">
+          <section class="tm-section alert alert-primary" role="alert" id="section-message-contact-ok">
+            Message envoyé!
+          </section>
+          <section class="tm-section alert alert-primary" role="alert" id="section-message-contact-ko">
+            Humhum!! Veuillez me contacter en directement avec cet email : <a href="mailto:philippe.lam.ny@gmail.com">philippe.lam.ny@gmail.com</a>
+          </section>
+          <section class="tm-section" id="section-message-contact">
             
             <div class="col-12 mb-5">
               <div class="tm-contact-form-wrap">
-                <form action="" method="POST" class="tm-contact-form">
-                  <h3>BIENTOT FONCTIONNEL!!!</h3>
+                <div action="" method="POST" class="tm-contact-form">
                   <div class="form-group">
                     <input type="text" id="contact_name" name="contact_name"
-                      class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Your Name"
+                      class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Nom"
                       required="" />
                   </div>
                   <div class="form-group">
                     <input type="email" id="contact_email" name="contact_email"
-                      class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Your Email"
+                      class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Email"
                       required="" />
                   </div>
 
@@ -437,7 +444,7 @@
                   </div>
 
                   <div class="form-group mb-0">
-                    <button type="submit" class="btn rounded-0 d-block ml-auto tm-btn-primary">
+                    <button type="submit" id="sendContactMessage" onclick="sendContactMessage()" class="btn rounded-0 d-block ml-auto tm-btn-primary">
                       SEND
                     </button>
                   </div>

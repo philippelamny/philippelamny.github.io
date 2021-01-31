@@ -550,6 +550,10 @@ figure.effect-bubba:hover p {
   box-shadow: none;
 }
 
+#section-message-contact-ok, #section-message-contact-ko {
+  display: none;
+}
+
 @media (max-width: 1600px) {
   .tm-sidebar {
     width: 30%;
@@ -675,3 +679,4 @@ figure.effect-bubba:hover p {
     padding: 50px 30px;
   }
 }
+

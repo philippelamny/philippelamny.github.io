@@ -1,4 +1,25 @@
+function sendContactMessage() {
+  
+  var templateParams = {
+    contact_name: $('#contact_name').val(),
+    contact_email: $('#contact_email').val(),
+    contact_message: $('#contact_message').val()
+  };
+  
+  emailjs.send('service_ogs97ve', 'template_k4dycke', templateParams)
+  .then(function(response) {
+    $("#section-message-contact").hide();
+      console.info('SUCCESS!', response.status, response.text);
+      $('#section-message-contact-ok').show();
+  }, function(error) {
+      console.error('FAILED...', error);
+      $('#section-message-contact-ko').show();
+  });
+};
+
 $(document).ready(function() {
+  emailjs.init("user_7q316Mbp4mHSid95WefAB");
+
   // Single Page Nav for highlighting nav items
   $("#tmMainNav").singlePageNav();
 
@@ -82,4 +103,6 @@ $(document).ready(function() {
   $("#tmMainNav .nav-link").click(function(e) {
     $(".tm-sidebar").removeClass("show");
   });
+
+  
 });
