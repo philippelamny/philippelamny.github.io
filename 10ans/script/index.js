@@ -76,7 +76,7 @@ function displayTimeline(events) {
         title.textContent = event.title
         
         const description = document.createElement('p')
-        description.textContent = event.description
+        description.innerHTML  = event.description
 
         li.appendChild(title)
         li.appendChild(description)
@@ -85,6 +85,6 @@ function displayTimeline(events) {
     })
 }
 
-//displayTimeline(infos.events)
+displayTimeline(infos.events)
 getevents()
 
