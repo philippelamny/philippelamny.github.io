@@ -85,6 +85,6 @@ function displayTimeline(events) {
     })
 }
 
-displayTimeline(infos.events)
+//displayTimeline(infos.events)
 getevents()
 
