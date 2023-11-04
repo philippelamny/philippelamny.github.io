@@ -2,6 +2,8 @@ body {
     background-image: url(../img/bg.jpg);
     background-size: contain;
     font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
 }
 .timeline-1 {
     border-left: 3px solid #b565a7;
@@ -53,7 +55,6 @@ body {
     left: -207px;
     content: attr(data-date);
     text-align: right;
-    font-weight: 100;
     font-size: 0.9em;
     min-width: 120px;
 }
@@ -81,4 +82,13 @@ body {
     .timeline-1 .event:after {
         left: -31.8px;
     }
+}
+
+h4 {
+    color: #b565a7;
+    font-weight: bold;
+}
+
+#title {
+    font-family: "Sacramento", Arial, serif;
 }
