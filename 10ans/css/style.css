@@ -5,6 +5,7 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: x-large;
 }
+
 .timeline-1 {
     border-left: 3px solid #b565a7;
     border-bottom-right-radius: 4px;
@@ -61,7 +62,7 @@ body {
 
 @media (max-width: 767px) {
     .timeline-1 .event:before {
-        left: 0px;
+        left: 0px !important;
         text-align: left;
     }
 }
@@ -104,8 +105,24 @@ h4 {
 
 .timeline-1 .active {
     font-size: xxx-large;
+    animation-duration: 2s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
 }
 
 .timeline-1 .active h4 {
-    font-size: xxx-large;
+    font-size: xx-large;
 }
+
+#main-event {
+    font-size: xxx-large;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+@keyframes clignoter {
+    0%   { opacity:1; }
+    40%   {opacity:0; }
+    100% { opacity:1; }
+  }

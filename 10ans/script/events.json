@@ -4,53 +4,63 @@
             "title": "Fred & Trung, 10 ans de mariage",
             "timeline": [
                 {
-                    "date": "17:00",
+                    "date": "11/25 17:00",
+                    "dateDisplay": "17:00",
                     "title": "XUnderground",
                     "description": "Préparation ambiance musicale"
                 },
                 {
-                    "date": "18:00",
+                    "date": "11/25 18:00",
+                    "dateDisplay": "18:00",
                     "title": "Serveurs/Nounous",
                     "description": "Briefing sur l'organisation de la soirée",
                     "active": true
                 },
                 {
-                    "date": "18:30",
+                    "date": "11/25 18:30",
+                    "dateDisplay": "18:30",
                     "title": "Apéro",
                     "description": "Arrivé des invités dans la joie et la bonne humeur avec une ambiance musicale année 90s/2000.<br>Redécouverte des boys bands"
                 },
                 {
-                    "date": "20:00",
+                    "date": "11/25 20:00",
+                    "dateDisplay": "20:00",
                     "title": "Tous à table!",
                     "description": "Les invités s'installent à table tranquillement.<br>Place à l'explication du jeu MamaLot avec un panier garni pour les premiers. <br>Choix du nom d'équipe par table"
                 },
                 {
-                    "date": "20:30",
+                    "date": "11/25 20:30",
+                    "dateDisplay": "20:30",
                     "title": "Repas",
                     "description": "Service du plat \"Pintade avec des choses\" <br>Service fromage \"Trucs qui sentent mauvais\""
                 },
                 {
-                    "date": "21:45",
+                    "date": "11/25 21:45",
+                    "dateDisplay": "21:45",
                     "title": "Quizz musicale",
                     "description": "La guerre aux rapides buzzz sur des chansons de zinzin. <br>Place à la danse"
                 },
                 {
-                    "date": "23:00",
+                    "date": "11/25 23:00",
+                    "dateDisplay": "23:00",
                     "title": "Jeu papille",
                     "description": "Quelle équipe papillera la première ?"
                 },
                 {
-                    "date": "24:00",
+                    "date": "11/25 24:00",
+                    "dateDisplay": "24:00",
                     "title": "Entre alcool et conduire",
                     "description": "Boisson et café :D"
                 },
                 {
-                    "date": "11:00",
+                    "date": "11/26 11:00",
+                    "dateDisplay": "11:00",
                     "title": "Tout doit disparaitre",
                     "description": "Déco, miamiam..."
                 },
                 {
-                    "date": "15:00",
+                    "date": "11/26 15:00",
+                    "dateDisplay": "15:00",
                     "title": "Rangement",
                     "description": "Des milliers d'euros en moins de 24h"
                 }
