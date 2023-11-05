@@ -82,6 +82,11 @@ body {
     .timeline-1 .event:after {
         left: -31.8px;
     }
+
+    .timeline-1 .active h4 {
+        padding-top: 1.5em;
+        font-size: xxx-large;
+    }
 }
 
 h4 {
@@ -91,4 +96,12 @@ h4 {
 
 #title {
     font-family: "Sacramento", Arial, serif;
+}
+
+.timeline-1 .active:after {
+    background: #b565a7;
+}
+
+.timeline-1 .active {
+    font-size: xxx-large;
 }

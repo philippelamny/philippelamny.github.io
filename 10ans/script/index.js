@@ -19,9 +19,18 @@ function displayTitle(title) {
 
 function displayTimeline(events) {
     const containerEvents = document.getElementById('events')
+    const dateNow = new Date()
+    const hoursnow = dateNow.getUTCHours() + ""
+    const minutesnow = dateNow.getUTCMinutes() + ""
+    const timeNow = hoursnow.padStart(2, '0') + ':' + minutesnow.padStart(2, '0');
+
     events.forEach(event => {
         const li = document.createElement('li')
         li.classList.add("event")
+        if (timeNow >= event.date) {
+            li.classList.add("active")
+        }
+
         li.dataset.date = event.date
 
         const title = document.createElement('h4')

@@ -11,7 +11,8 @@
                 {
                     "date": "18:00",
                     "title": "Serveurs/Nounous",
-                    "description": "Briefing sur l'organisation de la soirée"
+                    "description": "Briefing sur l'organisation de la soirée",
+                    "active": true
                 },
                 {
                     "date": "18:30",
