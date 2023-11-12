@@ -138,6 +138,7 @@ h4 {
 .guess-event {
     margin-bottom: 10px;
     font-size: xx-large ;
+    text-transform: capitalize;
 }
 
 .nav {
