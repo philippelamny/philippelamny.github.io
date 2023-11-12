@@ -137,5 +137,16 @@ h4 {
 
 .guess-event {
     margin-bottom: 10px;
-    font-size: xx-large;
+    font-size: xx-large ;
+}
+
+.nav {
+    display: block;
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: wavy;
+    color: #b565a7;
+    font-weight: bold;
 }
