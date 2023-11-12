@@ -4,7 +4,7 @@
             "title": "Fred & Trung, 10 ans de mariage",
             "tableMark": [
                 {
-                    "name": "Quel nom ?",
+                    "name": "",
                     "guess": [
                         "Céline",
                         "Cédric",
@@ -22,7 +22,7 @@
                     ]
                 },
                 {
-                    "name": "Quel nom ?",
+                    "name": "",
                     "guess": [
                         "Mounette",
                         "Christophe",
@@ -38,10 +38,10 @@
                     ]
                 },
                 {
-                    "name": "Quel nom ?",
+                    "name": "",
                     "guess": [
                         "Manon",
-                        "Selwynn",
+                        "Selwyn",
                         "Cécilia",
                         "Antonin",
                         "Marie",
@@ -49,13 +49,13 @@
                         "Damien",
                         "Camille",
                         "Théo-Felix",
-                        "Paul Maurice"
+                        "Paul-Maurice"
                     ]
                 },
                 {
-                    "name": "Quel nom ?",
+                    "name": "",
                     "guess": [
-                        "Ptit vieuw",
+                        "Ptit vieu",
                         "Mamylène",
                         "Nadia",
                         "JeanPat",
@@ -65,13 +65,13 @@
                         "Phat",
                         "Minh",
                         "Mai",
-                        "Copain Mai",
+                        "Marcel",
                         "Bi",
                         "Olivier"
                     ]
                 },
                 {
-                    "name": "Quel nom ?",
+                    "name": "",
                     "guess": [
                         "Voisine",
                         "Papa Yo",
@@ -86,7 +86,7 @@
                     ]
                 },
                 {
-                    "name": "Quel nom ?",
+                    "name": "",
                     "guess": [
                         "Yaye",
                         "Yo",
@@ -103,7 +103,7 @@
                     ]
                 },
                 {
-                    "name": "Enfant",
+                    "name": "Enfants",
                     "guess": [
                         "Arya",
                         "Simon",
@@ -118,7 +118,7 @@
                         "Anna",
                         "Maysson",
                         "Emy",
-                        "Maude",
+                        "Maud",
                         "Come",
                         "Héloise",
                         "Alice",
@@ -129,12 +129,12 @@
                         "Lily",
                         "Paul",
                         "Tino",
-                        "Lisou",
+                        "Lizou",
                         "Gabin",
                         "Sarah",
                         "Max",
                         "Elsa",
-                        "Eliotte",
+                        "Elliot",
                         "Lucas",
                         "Sasha",
                         "Arthur",
