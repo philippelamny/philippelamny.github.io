@@ -1,13 +1,13 @@
 function getevents() {
     fetch("./script/events.json")
-        .then(function(response) {
+        .then(function (response) {
             return response.json()
         })
-        .then(function(data) {
+        .then(function (data) {
             const currentEvent = data.events[0]
             displayTitle(currentEvent.title)
             displayTimeline(currentEvent.timeline)
-
+            displayMarkTable(currentEvent.tableMark)
         })
 }
 
@@ -27,32 +27,26 @@ function displayTimeline(events) {
     //const timeNow = '11/25 18:00'
     let prevEvent = null
     let prevElement = null
-    
+
 
     events.forEach(event => {
         const li = document.createElement('li')
         li.classList.add("event")
-        
+
         if (timeNow >= event.date) {
             li.classList.add("active")
             if (prevEvent !== null && prevEvent.date < event.date) {
                 prevElement.classList.remove("active")
             }
         }
-        
-        /*if (prevEvent === null && timeNow < event.date) {
-            console.log('lol')
-            document.getElementById('incoming-event').classList.remove('incoming-event')
-        }*/
 
-        li.dataset.date = event.dateDisplay
-
+        li.dataset.pointer = event.dateDisplay
         const title = document.createElement('h4')
         title.classList.add("mb-3")
         title.textContent = event.title
-        
+
         const description = document.createElement('p')
-        description.innerHTML  = event.description
+        description.innerHTML = event.description
 
         li.appendChild(title)
         li.appendChild(description)
@@ -61,6 +55,33 @@ function displayTimeline(events) {
 
         prevEvent = event
         prevElement = li
+    })
+}
+
+function displayMarkTable(tables) {
+    const containerMarkTables = document.getElementById('mark-tables')
+    tables.forEach((table, index) => {
+        const li = document.createElement('li')
+        li.classList.add("event")
+
+        li.dataset.pointer = `Table #${index}`
+
+        const title = document.createElement('h4')
+        title.classList.add("mb-3")
+        title.textContent = table.name
+
+        const guessList = document.createElement('ul')
+        table.guess.forEach((guessName) => {
+            const guess = document.createElement('li')
+            guess.classList.add('guess-event')
+            guess.innerHTML = guessName
+            guessList.appendChild(guess)
+        })
+        
+        li.appendChild(title)
+        li.appendChild(guessList)
+
+        containerMarkTables.appendChild(li)
     })
 }
 
