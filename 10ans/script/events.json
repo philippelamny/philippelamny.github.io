@@ -5,7 +5,7 @@
             "table-mark": [
                 {
                     "name": "1",
-                     "guess" [
+                     "guess": [
                          "Céline",
                          "Cédric",
                          "Poulette",
@@ -23,7 +23,7 @@
                 },
                 {
                     "name": "2",
-                     "guess" [
+                     "guess": [
                          "Mounette",
                          "Christophe",
                          "Tonton",
@@ -39,7 +39,7 @@
                 },
                 {
                     "name": "3",
-                     "guess" [
+                     "guess": [
                          "Manon",
                          "Selwynn",
                          "Cécilia",
@@ -54,7 +54,7 @@
                 },
                 {
                     "name": "4",
-                     "guess" [
+                     "guess": [
                          "Ptit vieuw",
                          "Mamylène",
                          "Nadia",
@@ -72,7 +72,7 @@
                 },
                 {
                     "name": "5",
-                     "guess" [
+                     "guess": [
                          "Voisine",
                          "Papa Yo",
                          "Camille",
@@ -87,7 +87,7 @@
                 },
                 {
                     "name": "6",
-                     "guess" [
+                     "guess": [
                          "Yaye",
                          "Yo",
                          "Océane",
@@ -104,7 +104,7 @@
                 },
                 {
                     "name": "Enfant",
-                     "guess" [
+                     "guess": [
                          "Arya",
                          "Simon",
                          "Alexio",
@@ -143,7 +143,7 @@
                          "Ean",
                          "Antoine"
                      ]
-                },
+                }
             ],
             "timeline": [
                 {
